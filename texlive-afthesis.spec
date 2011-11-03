@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/afthesis
+# catalog-date 2008-11-01 22:12:33 +0100
+# catalog-license pd
+# catalog-version 2.7
 Name:		texlive-afthesis
 Version:	2.7
 Release:	1
@@ -45,6 +51,7 @@ Technology.
 %doc %{_texmfdistdir}/doc/latex/afthesis/thesnumb.doc
 %doc %{_texmfdistdir}/doc/latex/afthesis/usethesis.pdf
 %doc %{_texmfdistdir}/doc/latex/afthesis/usethesis.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ Technology.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
