@@ -30,7 +30,6 @@ Technology.
 	%{_sbindir}/texlive.post
     fi
 
-
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/bibtex/bst/afthesis/thesnumb.bst
