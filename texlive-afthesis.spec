@@ -6,7 +6,7 @@
 # catalog-version 2.7
 Name:		texlive-afthesis
 Version:	2.7
-Release:	9
+Release:	10
 Summary:	Air Force Institute of Technology thesis class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/afthesis
