@@ -1,6 +1,6 @@
 Name:		texlive-afthesis
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Air Force Institute of Technology thesis class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/afthesis
