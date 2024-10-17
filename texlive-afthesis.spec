@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Air Force Institute of Technology thesis class
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/afthesis
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/afthesis
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/afthesis.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/afthesis.doc.r%{version}.tar.xz
